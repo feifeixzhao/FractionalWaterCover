@@ -14,7 +14,7 @@ This repository demonstrates how to derive fractional cover of water from EMIT d
 
 ## Requirements
 **SpectralUnmixing GitHub Repository**  
-   - Clone or download [**pgbrodrick/SpectralUnmixing**](https://github.com/pgbrodrick/SpectralUnmixing).  
+   - Clone or download [**SpectralUnmixing**](https://github.com/pgbrodrick/SpectralUnmixing).  
 
 
 ---
@@ -25,7 +25,7 @@ This repository demonstrates how to derive fractional cover of water from EMIT d
    A collection of spectral reflectance values generated from EMIT data representing shallow, turbid water conditions around the globe.
 
 2. **`convex_hull__n_dims_4_unmix_library_modified.csv`**  
-   Spectral reflectance values for NPV (non-photosynthetic vegetation), PV (photosynthetic vegetation), and soil components. These spectra, combined with the EMIT water library, form the basis of the unmixing process.
+   Spectral reflectance values for NPV (non-photosynthetic vegetation), PV (photosynthetic vegetation), and soil components. These spectra were validated in [**terraspec**](https://github.com/fotxoa-geo/terraspec).
 
 3. **`simulation_mod`**  
    tests modeled results with simulated data from the EMIT water library of water, NPV, PV, and soil. This helps validate or refine the unmixing approach before applying it to real imagery.
